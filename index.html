@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Personal Portfolio</title>
+  <link rel="stylesheet" href="styles.css">
+  <style>
+    /* Add your CSS styles here */
+    @media (max-width: 600px) {
+      #navbar {
+        position: fixed;
+        top: 0;
+        width: 100%;
+      }
+    }
+  </style>
+</head>
+<body>
+  <nav id="navbar">
+    <ul>
+      <li><a href="#welcome-section">Welcome</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+
+  <section id="welcome-section">
+    <h1>Welcome to My Portfolio</h1>
+  </section>
+
+  <section id="projects">
+    <div class="project-tile">
+      <h2>Tribute Page</h2>
+      <p>Description of Tribute Page</p>
+      <a href="tribute.html">View Project</a>
+    </div>
+    <!-- Add more project tiles here -->
+  </section>
+
+  <section id="contact">
+    <h2>Contact Me</h2>
+    <ul>
+      <li><a href="https://facebook.com">Facebook</a></li>
+      <li><a href="https://github.com">GitHub</a></li>
+      <li><a href="https://twitter.com">Twitter</a></li>
+      <li><a href="mailto:example@example.com">Send a mail</a></li>
+      <li><a href="tel:+1234567890">Call me</a></li>
+    </ul>
+  </section>
+
+  <a id="profile-link" href="https://github.com" target="_blank">My GitHub Profile</a>
+
+  <script src="script.js"></script>
+</body>
+</html>
